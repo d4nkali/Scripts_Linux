@@ -10,5 +10,4 @@ sleep 1
 
 echo Para finalizar o compartilhamento feche a janela ou control+c.
 
-serve /home/danilo/Público
-
+serve /..... # Digitar o caminho da pasta a ser compartilhada
