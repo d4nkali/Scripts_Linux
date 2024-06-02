@@ -37,7 +37,7 @@ if [ "$resposta" == "s" ]; then
     echo "Não remover os pacotes"
 
     fi
-    
+
 else
 
     echo "Atualização cancelada."
