@@ -1,6 +1,6 @@
 #!/bin/bash
 
-#Programa para solucionar bug no wifi desse notebook por Danilo Pereira 2022
+# Programa para solucionar bug no wifi desse notebook por d4nkali - 2022
 
 sudo service network-manager restart
 
@@ -11,4 +11,3 @@ sleep 5
 echo Pronto
 
 sleep 1
-

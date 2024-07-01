@@ -1,8 +1,8 @@
 #!/bin/bash
 
-#Programa para abilitar placas arduino no computador caso de error
+# Programa para abilitar as placas Arduino no computador caso de erro
 
-echo "Habilitador da placa arduino por Danilo Pereira 2023"
+echo "Habilitador da placa arduino por d4nkali - 2023"
 
 sleep 1
 
@@ -21,4 +21,3 @@ echo "Feche e abra novamente o IDE."
 echo "Finalizado. Você ja pode fechar essa janela ou espere 3 minutos."
 
 sleep 180
-

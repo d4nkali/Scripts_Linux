@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# Programa para tentar solucionar o bluetooth desse notebook por Danilo Pereira 2022
+# Programa para tentar solucionar o bluetooth desse notebook por d4nkali - 2022
 
 echo Aguarde...
 
