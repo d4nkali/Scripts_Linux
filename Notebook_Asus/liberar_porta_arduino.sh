@@ -21,3 +21,4 @@ echo "Feche e abra novamente o IDE."
 echo "Finalizado. Você ja pode fechar essa janela ou espere 3 minutos."
 
 sleep 180
+
