@@ -31,6 +31,14 @@ pacotes_apt = (
 
 )
 
+pacotes_snap = (
+
+    blender
+    spotify
+    cheese
+
+)
+
 sudo dpkg --add-architecture i386
 
 funçao_apt(){
@@ -49,5 +57,18 @@ funçao_apt(){
 
 }
 
-funçao_apt
+funcao_snap(){
 
+    sudo snap refresh
+
+    for pacote_2 in "${pacotes_snap[@]}";
+    do
+
+        sudo snap install $pacote_2 -y
+
+    done
+
+}
+
+funçao_apt
+funcao_snap
