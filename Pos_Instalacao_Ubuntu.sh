@@ -28,6 +28,7 @@ pacotes_apt = (
     dotnet-sdk-8.0
     p7zip
     gufw
+    npm
 
 )
 
@@ -36,6 +37,21 @@ pacotes_snap = (
     blender
     spotify
     cheese
+
+)
+
+pacotes_flatpak = (
+
+    org.telegram.desktop
+    org.libretro.RetroArch
+    org.kde.kdenlive
+    it.mijorus.gearlever
+    io.missioncenter.MissionCenter
+    io.github.thetumultuousunicornofdarkness.cpu-x
+    com.mattjakeman.ExtensionManager
+    com.heroicgameslauncher.hgl
+    com.usebottles.bottles
+    io.github.jeffshee.Hidamari
 
 )
 
@@ -70,5 +86,19 @@ funcao_snap(){
 
 }
 
+funcao_flatpak(){
+
+    flatpak update
+
+    for pacote_3 in "${pacotes_flatpak[@]}";
+    do
+
+        flatpak install $pacote_3 -y
+
+    done
+
+}
+
 funçao_apt
 funcao_snap
+funcao_flatpak
