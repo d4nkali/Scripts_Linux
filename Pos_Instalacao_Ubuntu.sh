@@ -29,6 +29,8 @@ pacotes_apt = (
     p7zip
     gufw
     npm
+    outguess
+    libfuse2
 
 )
 
