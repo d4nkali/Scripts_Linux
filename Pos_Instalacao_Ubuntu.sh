@@ -21,7 +21,7 @@ pacotes_apt = (
     audacity
     nano
     vim
-    transmission
+    qbittorrent
     gparted
     mysql-server
     dotnet-runtime-8.0
@@ -31,13 +31,13 @@ pacotes_apt = (
     npm
     outguess
     libfuse2
+    php
 
 )
 
 pacotes_snap = (
 
     blender
-    spotify
     cheese
 
 )
