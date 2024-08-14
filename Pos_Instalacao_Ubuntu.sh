@@ -32,6 +32,7 @@ pacotes_apt = (
     outguess
     libfuse2
     php
+    maven
 
 )
 
@@ -39,6 +40,7 @@ pacotes_snap = (
 
     blender
     cheese
+    intellij-idea-community --classic
 
 )
 
