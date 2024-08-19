@@ -33,6 +33,7 @@ pacotes_apt = (
     libfuse2
     php
     maven
+    postgresql
 
 )
 
