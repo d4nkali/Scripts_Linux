@@ -4,7 +4,7 @@
 # Feito por d4nkali - 2024
 # OBS: Ja ter o snap e flatpak instalado no sistema.
 
-pacotes_apt = (
+pacotes_apt=(
 
     vlc
     git
@@ -34,18 +34,21 @@ pacotes_apt = (
     php
     maven
     postgresql
+    fritzing
+    wget
 
 )
 
-pacotes_snap = (
+pacotes_snap=(
 
     blender
     cheese
     intellij-idea-community --classic
+    dbeaver-ce
 
 )
 
-pacotes_flatpak = (
+pacotes_flatpak=(
 
     org.telegram.desktop
     org.libretro.RetroArch
@@ -54,7 +57,6 @@ pacotes_flatpak = (
     io.missioncenter.MissionCenter
     io.github.thetumultuousunicornofdarkness.cpu-x
     com.mattjakeman.ExtensionManager
-    com.heroicgameslauncher.hgl
     com.usebottles.bottles
     io.github.jeffshee.Hidamari
 
@@ -62,7 +64,7 @@ pacotes_flatpak = (
 
 sudo dpkg --add-architecture i386
 
-funçao_apt(){
+funcao_apt(){
 
     sudo apt update && sudo apt dist-upgrade -y
 
@@ -104,6 +106,22 @@ funcao_flatpak(){
 
 }
 
-funçao_apt
+funcao_infos(){
+
+    echo "Ainda a pacotes para instalar como os AppImages, Portables, .deb e Java.
+
+Aplicativos AppImage:
+
+- 
+- 
+-
+
+"
+
+
+}
+
+funcao_apt
 funcao_snap
 funcao_flatpak
+funcao_infos
