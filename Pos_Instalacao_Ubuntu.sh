@@ -36,6 +36,7 @@ pacotes_apt=(
     postgresql
     fritzing
     wget
+    build-essential
 
 )
 
