@@ -113,12 +113,26 @@ funcao_infos(){
 
 Aplicativos AppImage:
 
-- 
-- 
--
+- Arduino IDE
+- Heroic Games Launcher
+- Stellarium
+- Modrith
+- CurseForge
+
+Aplicativos Tar.xz:
+
+- Godot
+- balenaEtcher
+- Arduino Micropython 
+- Arduino CLI
+- Torr Browser
+
+Aplicativos Java:
+
+- brModelo
+- ESPlorer
 
 "
-
 
 }
 
