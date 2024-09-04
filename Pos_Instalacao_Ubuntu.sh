@@ -2,7 +2,8 @@
 
 # Script de automatização para baixa os aplicativos apos a intalação para o Ubuntu 24.04 LTS.
 # Feito por d4nkali - 2024
-# OBS: Ja ter o snap e flatpak instalado no sistema.
+
+# OBS: Ja ter o Snap e Flatpak instalado e habilitado no sistema.
 
 pacotes_apt=(
 
@@ -37,6 +38,9 @@ pacotes_apt=(
     fritzing
     wget
     build-essential
+    sqlite3
+    nmap
+    zsh
 
 )
 
@@ -118,6 +122,19 @@ Aplicativos AppImage:
 - Stellarium
 - Modrith
 - CurseForge
+- Minecraft Bedrock Linux
+
+Aplicativos .deb ou PPA:
+
+- Google Chrome
+- Brave Browser
+- Earth Pro
+- Discord
+- Spotify
+- OnlyOffice
+- GameMaker
+- Proton VPN
+- Steam
 
 Aplicativos Tar.xz:
 
@@ -125,7 +142,8 @@ Aplicativos Tar.xz:
 - balenaEtcher
 - Arduino Micropython 
 - Arduino CLI
-- Torr Browser
+- Tor Browser
+- Itch.io
 
 Aplicativos Java:
 
