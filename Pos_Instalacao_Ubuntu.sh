@@ -135,6 +135,7 @@ Aplicativos .deb ou PPA:
 - GameMaker
 - Proton VPN
 - Steam
+- Insomnia
 
 Aplicativos Tar.xz:
 
