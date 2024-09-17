@@ -64,6 +64,7 @@ pacotes_flatpak=(
     com.mattjakeman.ExtensionManager
     com.usebottles.bottles
     io.github.jeffshee.Hidamari
+    rs.ruffle.Ruffle
 
 )
 
