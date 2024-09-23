@@ -17,7 +17,7 @@ if [ "$resposta_status" == "n" ]; then
 
 else
 
-    ps aux | grep sshd
+    pgrep sshd
 
 fi
 
