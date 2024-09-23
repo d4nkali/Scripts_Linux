@@ -41,6 +41,8 @@ pacotes_apt=(
     sqlite3
     nmap
     zsh
+    virtualbox
+    tree
 
 )
 
@@ -114,7 +116,7 @@ funcao_flatpak(){
 
 funcao_infos(){
 
-    echo "Ainda a pacotes para instalar como os AppImages, Portables, .deb e Java.
+echo "Ainda a pacotes para instalar como os AppImages, Portables, .deb e Java.
 
 Aplicativos AppImage:
 
@@ -124,6 +126,7 @@ Aplicativos AppImage:
 - Modrith
 - CurseForge
 - Minecraft Bedrock Linux
+- balenaEtcher
 
 Aplicativos .deb ou PPA:
 
@@ -141,7 +144,6 @@ Aplicativos .deb ou PPA:
 Aplicativos Tar.xz:
 
 - Godot
-- balenaEtcher
 - Arduino Micropython 
 - Arduino CLI
 - Tor Browser
