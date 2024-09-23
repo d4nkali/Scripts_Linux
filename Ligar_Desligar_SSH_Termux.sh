@@ -17,7 +17,15 @@ if [ "$resposta_status" == "n" ]; then
 
 else
 
-    pgrep sshd
+    if pgrep sshd > /dev/null; then
+
+        echo "SSH funcionando!"
+
+    else
+
+        echo "SSH não está funcionando"
+
+    fi
 
 fi
 
