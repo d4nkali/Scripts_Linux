@@ -15,3 +15,4 @@
 - Removable Drive Menu;
 - Start Oververlay in Application View;
 - User Themes;
+- Vitals (Desativado);
