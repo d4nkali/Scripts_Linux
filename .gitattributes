@@ -1,0 +1,4 @@
+# Convereter para lf
+
+*.sh eol=lf
+*.md eol=lf
