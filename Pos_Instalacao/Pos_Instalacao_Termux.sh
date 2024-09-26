@@ -11,6 +11,7 @@ pacotes_pkg=(
     neofetch
     nano
     vim
+    tree
 
 )
 

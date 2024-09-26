@@ -40,7 +40,6 @@ pacotes_apt=(
     build-essential
     sqlite3
     nmap
-    zsh
     virtualbox
     tree
 
@@ -112,11 +111,13 @@ funcao_flatpak(){
 
     done
 
+    flatpak install --user https://sober.vinegarhq.org/sober.flatpakref
+
 }
 
 funcao_infos(){
 
-echo "Ainda a pacotes para instalar como os AppImages, Portables, .deb e Java.
+echo "Ainda a pacotes para instalar como os AppImages, Portables, .deb, Java e PWA.
 
 Aplicativos AppImage:
 
@@ -140,6 +141,7 @@ Aplicativos .deb ou PPA:
 - Proton VPN
 - Steam
 - Insomnia
+- Lutris
 
 Aplicativos Tar.xz:
 
@@ -153,6 +155,16 @@ Aplicativos Java:
 
 - brModelo
 - ESPlorer
+
+Aplicativos PWA:
+
+- Canva
+- Whatsapp Web
+- Figma
+- Virus Total
+- Xcloud
+- Geoforce Now
+- Sedja
 
 "
 
