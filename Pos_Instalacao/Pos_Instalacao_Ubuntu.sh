@@ -42,6 +42,7 @@ pacotes_apt=(
     nmap
     virtualbox
     tree
+    mangohud
 
 )
 
