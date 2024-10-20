@@ -43,6 +43,7 @@ pacotes_apt=(
     virtualbox
     tree
     mangohud
+    obs-studio
 
 )
 
