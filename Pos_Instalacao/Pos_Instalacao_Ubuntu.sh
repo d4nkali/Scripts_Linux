@@ -44,6 +44,9 @@ pacotes_apt=(
     tree
     mangohud
     obs-studio
+    clang
+    neovim
+    gnome-tweaks
 
 )
 
@@ -53,6 +56,7 @@ pacotes_snap=(
     cheese
     intellij-idea-community --classic
     dbeaver-ce
+    thunderbird
 
 )
 
@@ -164,13 +168,16 @@ Aplicativos PWA:
 - Whatsapp Web
 - Figma
 - Virus Total
-- Xcloud
+- XCloud
 - Geoforce Now
-- Sedja
+- Sejda
 
 "
 
 }
+
+echo "Script Pós Instalação para o Ubuntu"
+echo ""
 
 funcao_apt
 funcao_snap

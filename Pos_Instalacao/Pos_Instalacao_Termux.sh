@@ -33,18 +33,19 @@ funcao_pkg(){
 
 }
 
-funcao_nvchad(){
+funcao_lazyvim(){
 
-    echo "Deseja instalar o NVchad agora? (N/y)"
+    echo "Deseja instalar o LazyVim agora? (N/y)"
     read resposta_nvchad
 
     if [ "$resposta_nvchad" == "n" ]; then
 
-    git clone https://github.com/NvChad/starter ~/.config/nvim && nvim
+    echo "Não instalar o nvChad para o NeoVim."
 
     else
 
-    echo "Não instalar o nvChad para o NeoVim."
+    git clone https://github.com/LazyVim/starter ~/.config/nvim
+    rm -rf ~/.config/nvim/.git
 
     fi
 
@@ -67,6 +68,6 @@ echo "Ainda a pacotes e configurações para fazer como:
 echo "Script Pós Instalação para o Termux"
 echo ""
 
-#funcao_pkg
+funcao_pkg
 funcao_infos
-#funcao_nvchad
+funcao_lazyvim
