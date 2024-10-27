@@ -47,6 +47,9 @@ pacotes_apt=(
     clang
     neovim
     gnome-tweaks
+    docker.io
+    docker-compose
+    ffmpeg
 
 )
 
@@ -72,6 +75,7 @@ pacotes_flatpak=(
     com.usebottles.bottles
     io.github.jeffshee.Hidamari
     rs.ruffle.Ruffle
+    org.DolphinEmu.dolphin-emu
 
 )
 
@@ -113,7 +117,7 @@ funcao_flatpak(){
     for pacote_3 in "${pacotes_flatpak[@]}";
     do
 
-        flatpak install $pacote_3 -y
+        flatpak install flathub $pacote_3 -y
 
     done
 
@@ -134,11 +138,15 @@ Aplicativos AppImage:
 - CurseForge
 - Minecraft Bedrock Linux
 - balenaEtcher
+- Duckstation
+- PCSX2
+- Citra
 
 Aplicativos .deb ou PPA:
 
 - Google Chrome
 - Brave Browser
+- Visual Studio Code
 - Earth Pro
 - Discord
 - Spotify
