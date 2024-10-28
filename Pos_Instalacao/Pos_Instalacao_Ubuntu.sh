@@ -50,6 +50,8 @@ pacotes_apt=(
     docker.io
     docker-compose
     ffmpeg
+    python3-pip
+    python3-venv
 
 )
 
@@ -127,7 +129,7 @@ funcao_flatpak(){
 
 funcao_infos(){
 
-echo "Ainda a pacotes para instalar como os AppImages, Portables, .deb, Java e PWA.
+echo "Ainda a pacotes para instalar como os AppImages, Portables, .deb, Java, Python e PWA.
 
 Aplicativos AppImage:
 
@@ -169,6 +171,10 @@ Aplicativos Java:
 
 - brModelo
 - ESPlorer
+
+Aplicativos Python:
+
+- spotDL
 
 Aplicativos PWA:
 
