@@ -197,3 +197,5 @@ funcao_apt
 funcao_snap
 funcao_flatpak
 funcao_infos
+
+read -p "Pressione Enter para fechar a janela"

@@ -71,3 +71,5 @@ echo ""
 funcao_pkg
 funcao_infos
 funcao_lazyvim
+
+read -p "Pressione Enter para fechar a janela"
