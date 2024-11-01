@@ -78,6 +78,7 @@ pacotes_flatpak=(
     io.github.jeffshee.Hidamari
     rs.ruffle.Ruffle
     org.DolphinEmu.dolphin-emu
+    org.ppsspp.PPSSPP
 
 )
 
@@ -143,6 +144,7 @@ Aplicativos AppImage:
 - Duckstation
 - PCSX2
 - Citra
+- Cemu
 
 Aplicativos .deb ou PPA:
 
