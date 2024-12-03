@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# Script de automatização para baixa os aplicativos apos a intalação para o Ubuntu 24.04 LTS.
+# Script de automatização para baixa os aplicativos após a instalação para o Ubuntu 24.04 LTS.
 # Feito por d4nkali - 2024
 
 # OBS: Ja ter o Snap e Flatpak instalado e habilitado no sistema.
@@ -52,6 +52,8 @@ pacotes_apt=(
     ffmpeg
     python3-pip
     python3-venv
+    cowsay
+    cmatrix
 
 )
 
@@ -69,7 +71,6 @@ pacotes_flatpak=(
 
     org.telegram.desktop
     org.libretro.RetroArch
-    org.kde.kdenlive
     it.mijorus.gearlever
     io.missioncenter.MissionCenter
     io.github.thetumultuousunicornofdarkness.cpu-x
@@ -145,6 +146,9 @@ Aplicativos AppImage:
 - PCSX2
 - Citra
 - Cemu
+- Krita
+- Kdenlive
+- Flycast
 
 Aplicativos .deb ou PPA:
 
@@ -160,6 +164,8 @@ Aplicativos .deb ou PPA:
 - Steam
 - Insomnia
 - Lutris
+- OBS Studio (Atualizado)
+- Qbitorrent (Atualizado)
 
 Aplicativos Tar.xz:
 
@@ -168,6 +174,7 @@ Aplicativos Tar.xz:
 - Arduino CLI
 - Tor Browser
 - Itch.io
+- NVM (Gerenciador do Node e Nodejs Atualizado)
 
 Aplicativos Java:
 
