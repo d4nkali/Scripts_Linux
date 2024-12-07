@@ -42,7 +42,8 @@ pacotes_apt=(
     nmap
     virtualbox
     tree
-    mangohud
+    meson
+    ninja-build
     obs-studio
     clang
     neovim
@@ -54,6 +55,7 @@ pacotes_apt=(
     python3-venv
     cowsay
     cmatrix
+    mangohud
 
 )
 
@@ -80,6 +82,8 @@ pacotes_flatpak=(
     rs.ruffle.Ruffle
     org.DolphinEmu.dolphin-emu
     org.ppsspp.PPSSPP
+    io.github.flattool.Warehouse
+    io.github.streetpea.Chiaki4deck
 
 )
 
@@ -164,6 +168,7 @@ Aplicativos .deb ou PPA:
 - Steam
 - Insomnia
 - Lutris
+- Parsec
 - OBS Studio (Atualizado)
 - Qbitorrent (Atualizado)
 
