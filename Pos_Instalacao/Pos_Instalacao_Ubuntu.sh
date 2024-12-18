@@ -153,6 +153,7 @@ Aplicativos AppImage:
 - Krita
 - Kdenlive
 - Flycast
+- OpenBOR
 
 Aplicativos .deb ou PPA:
 
@@ -169,6 +170,7 @@ Aplicativos .deb ou PPA:
 - Insomnia
 - Lutris
 - Parsec
+- Love2D
 - OBS Studio (Atualizado)
 - Qbitorrent (Atualizado)
 
