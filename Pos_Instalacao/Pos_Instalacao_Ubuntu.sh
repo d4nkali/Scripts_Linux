@@ -84,6 +84,12 @@ pacotes_flatpak=(
     org.ppsspp.PPSSPP
     io.github.flattool.Warehouse
     io.github.streetpea.Chiaki4deck
+    com.anydesk.Anydesk
+    io.gitlab.theevilskeleton.Upscaler
+    dev.geopjr.Collision
+    com.github.finefindus.eyedropper
+    com.github.ADBeveridge.Raider
+    fr.sgued.ten_forward
 
 )
 
@@ -154,6 +160,8 @@ Aplicativos AppImage:
 - Kdenlive
 - Flycast
 - OpenBOR
+- OpenRGB
+- MelonDS
 
 Aplicativos .deb ou PPA:
 
